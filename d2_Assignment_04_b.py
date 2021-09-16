@@ -6,7 +6,7 @@ while n1>0:
     n1=n1//10
 for i in range(0,r+1):
     rem=n2%10
-    sum = sum+ pow(rem,r)
+    sum = sum+ rem**r
     n2=n2//10
 if(sum==n):
     print("The given number is an armstrong number!")

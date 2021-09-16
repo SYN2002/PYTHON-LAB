@@ -1,6 +1,5 @@
 n=int(input("Enter the number: "))
-c=0 
-i=1
+c,i=0,1
 if n>1:
     while(i<=n):
         if(n%i==0):
