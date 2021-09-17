@@ -10,5 +10,5 @@ while i<=n2:
             c=c+1
         j=j+1
     if (c==2):
-        print(i)
+        print(i,end=" ")
     i=i+1
