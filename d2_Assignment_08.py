@@ -2,7 +2,7 @@ n1=int(input("Enter the lower limit: "))
 n2=int(input("Enter the uper limit: "))
 i,s=n1,0
 c=0
-print("Numbers are: ")
+print("Armstrong numbers are: ")
 while i<=n2:
     j=k=i
     c=0

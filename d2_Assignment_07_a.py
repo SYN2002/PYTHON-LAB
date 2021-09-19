@@ -1,7 +1,7 @@
 n1=int(input("Enter the lower limit: "))
 n2=int(input("Enter the uper limit: "))
 i,j,c=1,0,0
-print("The numbers are: ")
+print("The prime numbers are: ")
 for i in range(n1,n2+1):
     c=0
     for j in range(1,i+1):

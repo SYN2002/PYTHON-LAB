@@ -5,6 +5,6 @@ while i<n:
         sum=sum+i
     i=i+1
 if(sum==n):
-    print("Perfect number!")
+    print(n,"is a perfect number!")
 else:
-    print("Not Perfect number!")
+    print(n,"is not Perfect number!")
